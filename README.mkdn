@@ -34,9 +34,9 @@ Repositories:
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/LiquidSmooth/android.git -b lp5.1
+    repo init -u git://github.com/adeii/LS.git -b lp5.1
 
-    repo sync
+    repo sync --force-sync -f --no-tags --no-clone-bundle
     
 
 Building the System
@@ -68,7 +68,7 @@ Use the following as options...
 
 Example:
 ---------------
-    ./build-liquid.sh -c3 -p -o3 -j18 hammerhead
+    ./build-liquid.sh -c3 -p -o2 -j4 u8833
 
 Uploading to the LiquidSmooth Gerrit
 ---------------
