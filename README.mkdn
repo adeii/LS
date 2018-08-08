@@ -34,9 +34,9 @@ Repositories:
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/adeii/LS.git -b lp5.1
+    repo init -u git://github.com/adeii/LS.git -b lp5.1 --depth=1
 
-    repo sync --force-sync -f --no-tags --no-clone-bundle
+    repo sync --force-sync -c -f --no-tags --no-clone-bundle
     
 
 Building the System
